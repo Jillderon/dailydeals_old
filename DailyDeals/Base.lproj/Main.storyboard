@@ -51,7 +51,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="giV-HS-0hP" kind="show" id="wgF-Yk-Ewo"/>
+                                    <action selector="loginDidTouch:" destination="Hmz-2K-UuH" eventType="touchUpInside" id="N6j-2S-woO"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7Jk-ik-wNa">
@@ -62,17 +62,22 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="laV-WP-FXC" kind="show" id="P3V-37-lqE"/>
+                                    <segue destination="laV-WP-FXC" kind="show" id="kG5-7o-a6p"/>
                                 </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="0.29204627869999999" green="0.65247046949999998" blue="0.49190118910000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
                     <navigationItem key="navigationItem" id="1at-tz-DFk"/>
+                    <connections>
+                        <outlet property="textFieldLoginEmail" destination="tjm-WR-bb7" id="nm4-dA-WpG"/>
+                        <outlet property="textFieldLoginPassword" destination="CjY-oK-g12" id="Skh-7r-SQj"/>
+                        <segue destination="qkU-Pb-Cjx" kind="show" identifier="toSearchDeal" id="imR-Tl-mb0"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="61n-UY-uIC" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="780" y="375.56221889055473"/>
+            <point key="canvasLocation" x="1215" y="251"/>
         </scene>
         <!--Sign Up View Controller-->
         <scene sceneID="UOG-6c-gWn">
@@ -145,7 +150,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3iv-Fm-fWw" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="780" y="1066.4167916041979"/>
+            <point key="canvasLocation" x="1214" y="1055"/>
         </scene>
         <!--Search Deal View Controller-->
         <scene sceneID="zlt-Eb-kGu">
@@ -196,7 +201,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="rBP-kw-hLC" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1820" y="235"/>
+            <point key="canvasLocation" x="2888.8000000000002" y="250.52473763118442"/>
         </scene>
         <!--Map View Controller-->
         <scene sceneID="O8d-Hq-xKt">
@@ -228,7 +233,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="54x-lz-o2T" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2668" y="234"/>
+            <point key="canvasLocation" x="3614" y="251"/>
         </scene>
         <!--Add Deal View Controller-->
         <scene sceneID="FIK-Jn-epg">
@@ -255,7 +260,25 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="AMU-wy-il5" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1820" y="907"/>
+            <point key="canvasLocation" x="1950" y="921"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="N4H-eK-8VY">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="qkU-Pb-Cjx" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="xgl-lp-PtI">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="giV-HS-0hP" kind="relationship" relationship="rootViewController" id="bP6-vj-TqD"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="5bO-lg-kG0" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1949.5999999999999" y="250.52473763118442"/>
         </scene>
     </scenes>
 </document>

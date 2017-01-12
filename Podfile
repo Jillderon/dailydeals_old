@@ -7,5 +7,6 @@ target 'DailyDeals' do
 
   # Pods for DailyDeals
   pod 'Firebase/Core'
+  
 
 end
