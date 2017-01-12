@@ -7,6 +7,8 @@
 //
 
 import UIKit
+import Firebase
+import FirebaseAuth
 
 class LoginViewController: UIViewController {
 
@@ -21,9 +23,10 @@ class LoginViewController: UIViewController {
         super.didReceiveMemoryWarning()
     }
     
-//    @IBAction func loginDidTouch(_ sender: Any) {
-//
-//    }
+    @IBAction func loginDidTouch(_ sender: Any) {
+        FIRAuth.auth()!.signIn(withEmail: textFieldLoginEmail.text!,
+                               password: textFieldLoginPassword.text!)
+    }
     
     func alert(title: String, message: String) {
         let alertController = UIAlertController(title: title, message: message, preferredStyle: UIAlertControllerStyle.alert)
