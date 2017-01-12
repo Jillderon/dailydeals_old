@@ -21,15 +21,9 @@ class LoginViewController: UIViewController {
         super.didReceiveMemoryWarning()
     }
     
-    @IBAction func loginDidTouch(_ sender: Any) {
-        FIRAuth.auth()!.signIn(withEmail: textFieldLoginEmail.text!, password: textFieldLoginPassword.text!) {
-            (user, error) in
-            if error != nil {
-                self.alert(title: "Error with logging in", message: "Enter a valid email and password")
-            }
-            
-        }
-    }
+//    @IBAction func loginDidTouch(_ sender: Any) {
+//
+//    }
     
     func alert(title: String, message: String) {
         let alertController = UIAlertController(title: title, message: message, preferredStyle: UIAlertControllerStyle.alert)
