@@ -18,6 +18,7 @@
 		21C047661E27C4A100FD8964 /* SearchDealViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21C047651E27C4A100FD8964 /* SearchDealViewController.swift */; };
 		21C047681E27C4CE00FD8964 /* AddDealViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21C047671E27C4CE00FD8964 /* AddDealViewController.swift */; };
 		21C0476A1E27CAA600FD8964 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21C047691E27CAA600FD8964 /* CoreLocation.framework */; };
+		21CBBCD61E28D8F70025B6A3 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21CBBCD51E28D8F70025B6A3 /* User.swift */; };
 		B4881E3E5D4524AF22BF0953 /* Pods_DailyDeals.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C47B5A19219205909B78111 /* Pods_DailyDeals.framework */; };
 /* End PBXBuildFile section */
 
@@ -37,6 +38,7 @@
 		21C047671E27C4CE00FD8964 /* AddDealViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddDealViewController.swift; sourceTree = "<group>"; };
 		21C047691E27CAA600FD8964 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		21C0476B1E27D95A00FD8964 /* DailyDeals.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DailyDeals.entitlements; sourceTree = "<group>"; };
+		21CBBCD51E28D8F70025B6A3 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = User.swift; path = ../User.swift; sourceTree = "<group>"; };
 		7BF2372F2F92A5D780571762 /* Pods-DailyDeals.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DailyDeals.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DailyDeals/Pods-DailyDeals.debug.xcconfig"; sourceTree = "<group>"; };
 		8C47B5A19219205909B78111 /* Pods_DailyDeals.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DailyDeals.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -76,9 +78,10 @@
 			isa = PBXGroup;
 			children = (
 				21C0476B1E27D95A00FD8964 /* DailyDeals.entitlements */,
-				21C047491E27B63F00FD8964 /* AppDelegate.swift */,
 				21C0474D1E27B63F00FD8964 /* Main.storyboard */,
+				21C047491E27B63F00FD8964 /* AppDelegate.swift */,
 				21C0475D1E27C41100FD8964 /* LoginViewController.swift */,
+				21CBBCD51E28D8F70025B6A3 /* User.swift */,
 				21C047671E27C4CE00FD8964 /* AddDealViewController.swift */,
 				21C047611E27C47400FD8964 /* SignUpViewController.swift */,
 				21C047631E27C48D00FD8964 /* MapViewController.swift */,
@@ -245,6 +248,7 @@
 				21C0474A1E27B63F00FD8964 /* AppDelegate.swift in Sources */,
 				21C047641E27C48D00FD8964 /* MapViewController.swift in Sources */,
 				21C047661E27C4A100FD8964 /* SearchDealViewController.swift in Sources */,
+				21CBBCD61E28D8F70025B6A3 /* User.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
