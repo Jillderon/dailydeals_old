@@ -13,7 +13,7 @@ Because this app is centered both around clients as around companies, there are 
 * SearchDeal ViewController 
 * InformationDeal ViewController
 
-[![Screen Shot 2017-01-11 at 15.13.09.png](https://s27.postimg.org/8bqddhkcz/Screen_Shot_2017_01_11_at_15_13_09.png)](https://postimg.org/image/xhrbkbln3/)
+[![Screen Shot 2017-01-13 at 11.26.06.png](https://s30.postimg.org/ckloeg841/Screen_Shot_2017_01_13_at_11_26_06.png)](https://postimg.org/image/5u5750ky5/)
 
 ## Sketches UI 
 [![Screen Shot 2017-01-13 at 11.14.03.png](https://s30.postimg.org/bla5w6fq9/Screen_Shot_2017_01_13_at_11_14_03.png)](https://postimg.org/image/vfw7iauxp/)
